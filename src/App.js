@@ -24,7 +24,7 @@ function App() {
             text={i.text}
             textClasses={"font-semibold "}
             iconClasses={"border rounded-full p-1"}
-            children={<img src={i.icon} />}
+            icon={<img src={i.icon} />}
             // give icon width in px, vw, or em, rem
             iconWidth={"35px"}
           />

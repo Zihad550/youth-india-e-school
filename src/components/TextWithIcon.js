@@ -3,7 +3,7 @@ import React from "react";
 const TextWithIcon = ({
   text,
   textClasses,
-  children,
+  icon,
   iconClasses,
   iconWidth,
   classes,
@@ -17,7 +17,7 @@ const TextWithIcon = ({
         }}
         className={iconClasses}
       >
-        {children}
+        {icon}
       </span>
       <p className={textClasses} style={{ margin: "auto 0 auto 12px" }}>
         {text}
