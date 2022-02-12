@@ -12,7 +12,7 @@ const Navigate = () => {
         Edit Teacher Profile
       </button>
       <button
-        onClick={() => navigate("/editStudentProfile")}
+        onClick={() => navigate("/librarySubject")}
         className=" text-white my-2 bg-violet-400 px-4 py-1 rounded-tr-lg rounded-br-lg"
       >
         Edit Student Profile

@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import EditStudentProfile from "./Pages/EditStudentProfile/EditStudentProfile";
-import EditTeacherProfile from "./Pages/EditTeacherProfile/EditTeacherProfile";
+import LibrarySubject from "./Pages/LibrarySubject";
 import Navigate from "./Pages/Navigate";
 
 const App = () => {
@@ -10,8 +9,8 @@ const App = () => {
       <BrowserRouter>
         <Navigate />
         <Routes>
-          <Route path="/" element={<EditTeacherProfile />} />
-          <Route path="/editStudentProfile" element={<EditStudentProfile />} />
+          <Route path="/" element={<LibrarySubject />} />
+          <Route path="/librarySubject" element={<LibrarySubject />} />
         </Routes>
       </BrowserRouter>
     </div>
